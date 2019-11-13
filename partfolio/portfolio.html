@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="../partfolio/portfolio.css">
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="onBlur()">
+		
+	<div class="name"><h1>OLEKSANDR MINAIEV</h1></div>
+	<div class="info">
+		<h2>Short info</h1>
+		<h5 class="short_info">15 years old</h3>
+		<h5 class="short_info">Learn in classical gumnasium</h3>
+		<h5 class="short_info">I know 3 program languages</h3>
+		<h5 class="short_info">English b2</h3>
+	    <img src="../partfolio/portfolio.html" alt="" class="short_info_img">
+	</div>
+	<div class="info2"></div>
+		<div class="head">
+			<img  class="hide" src="../partfolio/IMG_6811.jpeg" alt="">
+			<div class="link">Home</div>
+			<div class="link">Portfolio</div>
+			<div class="link">About</div>
+		</div>
+
+	<div class="head_back">
+	
+	</div>
+	<div class="back2">
+		<div class="swimmer" onclick="swimmer()"><h1>Interesting fackts</h1></div>
+		<div class="back_circle1" onclick="circle()">
+			
+		</div>
+		<div class="back_circle3" onclick="circle1()">
+				
+		</div>
+		<div class=""></div>
+	</div>
+	
+
+
+
+
+
+	<script type="text/javascript">
+
+		function onBlur(){
+	      var blur = document.querySelector('.head_back');
+	      var meny = document.querySelector('.head');
+	      var hide = document.querySelector('.hide');
+          var name = document.querySelector('.name');
+          var links = document.querySelector('.link');
+          var links1 = document.querySelector('.link2');
+          var links2 = document.querySelector('.link4');
+          var info1 = document.querySelector('.info');
+          var info2 = document.querySelector('.info2');
+         if(blur.classList.contains('head_back1')){
+		blur.classList.remove('head_back1')
+
+	}else{
+		blur.classList.add('head_back1')
+	}
+
+setTimeout(function(){
+       if(meny.classList.contains('head1')){
+		meny.classList.remove('head1')
+
+	}else{
+		meny.classList.add('head1')
+	}},10000);
+
+
+        if(name.classList.contains('name1')){
+		name.classList.remove('name1')
+
+	}else{
+		name.classList.add('name1')
+}
+    setTimeout(function(){
+	   if(info1.classList.contains('info1')){
+		info1.classList.remove('info1')
+
+	}else{
+		info1.classList.add('info1')
+	}}, 5000);
+
+ setTimeout(function(){
+	   if(info2.classList.contains('info3')){
+		info2.classList.remove('info3')
+
+	}else{
+		info2.classList.add('info3')
+	}}, 5000);
+
+}
+function circle(){
+	var circle1 = document.querySelector('.back_circle1');
+
+
+	if(circle1.classList.contains('back_circle2')){
+		circle1.classList.remove('back_circle2')
+
+	}else{
+		circle1.classList.add('back_circle2')
+}
+}
+function circle1(){
+	var circle2 = document.querySelector('.back_circle3');
+
+
+	if(circle2.classList.contains('back_circle4')){
+		circle2.classList.remove('back_circle4')
+
+	}else{
+		circle2.classList.add('back_circle4')
+}
+}
+function swimmer(){
+	var swimmer = document.querySelector('.swimmer');
+
+
+	if(swimmer.classList.contains('swimmer1')){
+		swimmer.classList.remove('swimmer1')
+
+	}else{
+		swimmer.classList.add('swimmer1')
+}
+}
+
+	</script>
+</body>
+</html>

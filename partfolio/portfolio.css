@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.head_back{
+	z-index: -1;
+	position: absolute;
+	transition: 12s;
+	width: 100%;
+	height: 725px;
+	background: url(../partfolio/brown-snowy-mountain-1054201.jpg) no-repeat;
+	background-size: 1900px;
+
+}
+.head_back1{
+		z-index: -1;
+		position: relative;
+	transition: 12s;
+	width: 100%;
+	height: 725px;
+	background: url(../partfolio/brown-snowy-mountain-1054201.jpg) no-repeat;
+	background-size: 1900px;
+	filter: blur(10px);
+}
+.head{
+display: flex;
+	transition: 5s;
+	z-index: 1;
+	position: absolute;
+ width: 100%;
+ height: 70px;
+ background:rgba(108, 126, 160, 0.72);
+bottom:  800px;
+}
+.head1{
+	display: flex;
+	transition: 5s;
+	z-index: 1;
+	position: absolute;
+ width: 100%;
+ height: 70px;
+ background:rgba(108, 126, 160, 0.72);
+ bottom:  651px;
+
+}
+
+.hide{
+	transition: 12s;
+	height: 55px;
+	width: 55px;
+	
+	
+		border-radius: 50px;
+	margin-top: 10px;
+    margin-left: 20px;
+    filter: blur(0px);
+}
+.name{
+	display: flex;
+	transition: 7s;
+	margin-top: 300px;
+	left: 650px;
+	z-index: 2;
+	position: absolute;
+	width: 550px;
+	height: 60px;
+	
+	filter: blur(20px);
+}
+.name1{
+	display: flex;
+	transition: 7s;
+	margin-top: 300px;
+	left: 470px;
+	z-index: 2;
+	position: absolute;
+	width: 550px;
+	height: 60px;
+
+	filter: blur(0px);
+}
+
+.link:hover{
+	transition:0.5s;
+	justify-content: center;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-left: 55px;
+	height: 20px;
+	width: 80px;
+	height: 20px;
+	background: rgb(96, 129, 191);
+	border: solid rgb(33, 47, 74); 
+}
+.link{
+	transition:5s;
+	justify-content: center;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-left: 55px;
+	height: 20px;
+	width: 80px;
+	height: 20px;
+	background: rgb(33, 47, 74);
+	filter: blur(0px);
+}
+
+
+.info {
+	text-align: center;
+	border-radius: 10px;
+	transition: 5s;
+	margin-top: 300px;
+	width: 250px;
+	height: 300px;
+	background:rgba(105, 73, 55, 0.47);
+	position: absolute;
+	margin-left: 1370px;
+}
+.info1{
+	text-align: center;
+	border-radius: 10px;
+		transition: 5s;
+	margin-top: 300px;
+	width: 250px;
+	height: 300px;
+	background:rgba(105, 73, 55, 0.47);
+	position: absolute;
+	margin-left: 930px;
+}
+.info2{
+	border-radius: 10px;
+	transition: 5s;
+ position: absolute;
+ width: 200px;
+ height: 250px;
+ background: rgba(105, 73, 55, 0.47);
+ margin-left: 100px;
+ bottom: 720px;
+}
+.info3{
+	border-radius: 10px;
+	transition: 5s;
+ position: absolute;
+ width: 200px;
+ height: 250px;
+ background: rgba(105, 73, 55, 0.47);
+ margin-left: 100px;
+ bottom: 390px;
+}
+.short_info{
+ margin-top: 5px;
+
+}
+.short_info_img{
+	margin-right: 30px;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 200px;
+	height: 140px;
+}
+.back2{
+	width: 100%;
+	height: 721px;
+	background:rgba(16, 15, 15, 0.96);
+}
+.back_circle1{
+	transition: 2s;
+	margin-top: 250px;
+	margin-left: 200px;
+position:absolute;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	background: rgba(105, 99, 99, 0.96);
+}
+.back_circle2{
+	transition: 2s;
+	margin-top: 150px;
+	margin-left: 100px;
+position:absolute;
+	border-radius: 150px;
+	width: 250px;
+	height: 250px;
+	background: rgba(105, 99, 99, 0.96);
+}
+
+.back_circle3{
+	transition: 2s;
+	margin-top: 500px;
+	margin-left: 950px;
+position:absolute;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	background: rgba(105, 99, 99, 0.96);
+}
+.back_circle4{
+	transition: 2s;
+	margin-top: 400px;
+	margin-left: 850px;
+position:absolute;
+	border-radius: 150px;
+	width: 250px;
+	height: 250px;
+	background: rgba(105, 99, 99, 0.96);
+}
+.swimmer{
+	transition: 2s;
+	margin-top: 20px;
+	right: 1250px;
+	border-radius: 10px;
+	position: absolute;
+	width: 500px;
+	height: 70px;
+	background:rgba(105, 99, 99, 0.96);
+    text-align: center;
+}
+.swimmer1{
+	transition: 2s;
+	margin-top: 20px;
+	right: 380px;
+	border-radius: 10px;
+	position: absolute;
+	width: 500px;
+	height: 70px;
+	background:rgba(105, 99, 99, 0.96);
+    text-align: center;
+}
+
+
+
+
+
+
+
+ 
+
